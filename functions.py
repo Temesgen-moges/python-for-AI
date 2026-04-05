@@ -11,4 +11,4 @@ def weather():
         print(f"{temp_f}°F is equal to {temp_c}°C")
 pass
 
-weather
+weather()
