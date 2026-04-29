@@ -20,10 +20,37 @@
 # add(5, 7)
 
 # #Qstion 3
-score = 0
 
-def update_score():
-    global score
-    score += 10
-    print(f"Score updated: {score}")
-update_score()    
+# score = 0
+
+# def update_score():
+#     global score
+#     score += 10
+#     print(f"Score updated: {score}")
+
+# update_score()    
+
+# #qstion 4
+
+# def multiply(x):
+#     result = x * 2
+#     print(f"{x} multiplied by 2 is {result}")
+
+# multiply(5)
+
+# #qstion 5
+
+# def number(x):
+#     if x % 2 == 0:
+#         print(f"{x} is even")
+#     else:
+#         print(f"{x} is odd")
+
+# number(10)
+
+def sum(a, b):
+    return a + b
+
+s = sum(a=5, b=7)
+
+print(s + 10)
